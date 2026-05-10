@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Makeup Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <font color="#ff7b6a">Aura</font><span>Makeup Studio</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Reveal Your Inner Aura</h1>
+            <p>Premium bridal, party makeup and draping services tailored for your special day.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero_makeup_1778393347346.png" alt="Aura Makeup Studio Hero">
+        </div>
+    </header>
+
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>Experience the touch of luxury with our specialized offerings</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets/bridal_makeup_1778393376929.png" alt="Bridal Makeup">
+                </div>
+                <div class="service-info">
+                    <h3>Bridal Makeup</h3>
+                    <p>Flawless, long-lasting makeup designed to make you the center of attention on your wedding day.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets/party_makeup_1778393392019.png" alt="Party Makeup">
+                </div>
+                <div class="service-info">
+                    <h3>Party Makeup</h3>
+                    <p>Glamorous and elegant looks tailored for any special occasion, party or event.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets/saree_draping_1778393417052.png" alt="Saree Draping & Prepleating">
+                </div>
+                <div class="service-info">
+                    <h3>Saree Draping & Prepleating</h3>
+                    <p>Professional draping and perfect prepleating for a flawless, elegant silhouette.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets/bridal_jewelry_1778393434846.png" alt="Bridal Jewelry for Rent">
+                </div>
+                <div class="service-info">
+                    <h3>Bridal Jewelry for Rent</h3>
+                    <p>A stunning collection of premium traditional and modern bridal jewelry available for rent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form-section">
+
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Book your appointment or send us a message</p>
+        </div>
+
+        <form id="leadForm" class="contact-form">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">
+                Submit
+            </button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>Aura</h2>
+                <p>Makeup Studio</p>
+            </div>
+            <div class="footer-contact">
+                <!--                <p><i class="fas fa-envelope"></i> hello@auramakeup.com</p> -->
+                <p><i class="fas fa-phone"></i> +91 94890 96274</p>
+                <p><i class="fas fa-map-marker-alt"></i> 263, Agaram Main Rd., Padamavathy Nagar, Yeswanth Nagar,
+                    Selaiyur, Chennai, Tamil Nadu 600073</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aura Makeup Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
